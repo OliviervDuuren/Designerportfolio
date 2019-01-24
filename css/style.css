@@ -244,7 +244,7 @@ Intro
 -------------------------------- */
 #cd-intro {
   position: relative;
-  background: url(../img/PW3A3883blur.JPG)  20% 60% ;
+  background: url(../img/PW3A3883blur.jpg)  20% 60% ;
   background-size: cover;
   background-color: #FCFCFC;
   filter: brightness(90%);
