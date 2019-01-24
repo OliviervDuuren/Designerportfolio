@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Portfolio | Olivier van Duuren</title>
+
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+		<link rel="stylesheet" href="css/stylepf.css"> <!-- Resource style -->
+		<link rel="icon" href="img/logo_blue.png">
+
+		<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+	  	<script type='text/javascript'>
+			var index = 0;
+			var text = 'Hey there! I am Olivier'; // Here you can put in the text you want to make it type.
+			function type()
+			{
+			document.getElementById('typingtext').innerHTML += text.charAt(index);
+			index += 1;
+			var t = setTimeout('type()',100); // The time taken for each character here is 100ms. You can change it if you want.
+			}//Typing text in banner
+		</script> 
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+		<script> // Toggle all other skills 
+		$(document).ready(function(){
+		    $("#hide").click(function(){
+		    	$("#show").show();
+		        $(".otherskills").hide();
+		        
+		    });
+		    $("#show").click(function(){
+		        $(".otherskills").show();
+		        $("#show").hide();
+		    });
+		});
+		</script>
+
+		<!--<script type="text/javascript">
+		 var clicks = 0;
+		    function clickME() {
+		        clicks += 1;
+		        document.getElementById("clicks").innerHTML = "&#10010; Game design &nbsp;" + clicks;
+		 }
+		 var clicks1 = 0;
+		    function clickME1() {
+		        clicks1 += 1;
+		        document.getElementById("clicks1").innerHTML = "&#10010; Idea generation &nbsp;" + clicks1;
+		 }
+		 var clicks2 = 0;
+		    function clickME2() {
+		        clicks2 += 1;
+		        document.getElementById("clicks2").innerHTML = "&#10010; Team player &nbsp;" + clicks2;
+		 }
+		 var clicks3 = 0;
+		    function clickME3() {
+		        clicks3 += 1;
+		        document.getElementById("clicks3").innerHTML = "&#10010; Data analytics &nbsp;" + clicks3;
+		 }
+		 var clicks4 = 0;
+		    function clickME4() {
+		        clicks4 += 1;
+		        document.getElementById("clicks4").innerHTML = "&#10010; Video editing &nbsp;" + clicks4;
+		 }
+		 var clicks5 = 0;
+		    function clickME5() {
+		        clicks5 += 1;
+		        document.getElementById("clicks5").innerHTML = "&#10010; User testing &nbsp;" + clicks5;
+		 }
+		 var clicks6 = 0;
+		    function clickME6() {
+		        clicks6 += 1;
+		        document.getElementById("clicks6").innerHTML = "&#10010; Scientific research &nbsp;" + clicks6;
+		 }
+		 var clicks7 = 0;
+		    function clickME7() {
+		        clicks7 += 1;
+		        document.getElementById("clicks7").innerHTML = "&#10010; Human cognition &nbsp;" + clicks7;
+		 }
+		 var clicks8 = 0;
+		    function clickME8() {
+		        clicks8 += 1;
+		        document.getElementById("clicks8").innerHTML = "&#10010; English &nbsp;" + clicks8;
+		 }
+		 var clicks9 = 0;
+		    function clickME9() {
+		        clicks9 += 1;
+		        document.getElementById("clicks9").innerHTML = "&#10010; Dutch &nbsp;" + clicks9;
+		 }// All skill counters
+		</script>-->
+
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-98295556-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+
+
+	</head>
+
+	<body onload='type()'>
+<ul class="cbp-rfgrid">
+	<li><a href="#"><img src="img/MSoS2.jpg" /><div><h3>Felis catus</h3></div></a></li>
+	<li><a href="#"><img src="img/MSoS2.jpg" /><div><h3>Felis catus</h3></div></a></li>
+	<li><a href="#"><img src="img/MSoS2.jpg" /><div><h3>Felis catus</h3></div></a></li>
+	<li><a href="#"><img src="img/MSoS2.jpg" /><div><h3>Felis catus</h3></div></a></li>
+
+	<li><a href="#"><img src="img/MSoS2.jpg" /><div><h3>Felis catus</h3></div></a></li>
+	<li><a href="#"><img src="img/MSoS2.jpg" /><div><h3>Felis catus</h3></div></a></li>
+	<li><a href="#"><img src="img/MSoS2.jpg" /><div><h3>Felis catus</h3></div></a></li>
+	<li><a href="#"><img src="img/MSoS2.jpg" /><div><h3>Felis catus</h3></div></a></li>
+	
+	<li><a href="#"><img src="img/MSoS2.jpg" /><div><h3>Felis catus</h3></div></a></li>
+	<li><a href="#"><img src="img/MSoS2.jpg" /><div><h3>Felis catus</h3></div></a></li>
+	<li><a href="#"><img src="img/MSoS2.jpg" /><div><h3>Felis catus</h3></div></a></li>
+	<li><a href="#"><img src="img/MSoS2.jpg" /><div><h3>Felis catus</h3></div></a></li>
+
+	<!-- ... -->
+</ul>	
+			
+
+	</body>
+
+</html>
