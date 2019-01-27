@@ -8,7 +8,8 @@
 
 		<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 		<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-		<link rel="stylesheet" href="css/component.css"
+		<link rel="stylesheet" href="css/component.css">
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 		<script src="js/modernizr.js"></script> <!-- Modernizr -->
 
 
@@ -16,6 +17,32 @@
 
 		<script src="http://code.jquery.com/jquery-latest.js"></script>
 
+		<script type="text/javascript">
+			function myConFunction() {
+			  var x = document.getElementById("myCON");
+			  var y = document.getElementById("myCON2");
+			  if (x.innerHTML === "More") {
+			    y.innerHTML = "I did also actively evaluated all obtained learnings in the studies we performed, even though I did not execute these. I took responsibility for developing the digital interface in the functional prototype. This interface was needed for the field deployments so that we could validate our concept.";
+			    x.innerHTML = "";
+			  } 
+			}
+			function ResFunction() {
+			  var x = document.getElementById("RES");
+			  var y = document.getElementById("RES2");
+			  if (x.innerHTML === "More") {
+			    y.innerHTML = "Every active user in the setting can be assigned to a color, giving them an identity within the system. In this way, while everyone requests their favorite songs via the digital interface, others can become aware when changes are made in the queue via the tangible interface. After validating this concept with field deployments, we truly believe that providing authorship as social information has great potential in improving the shared music listening experience.";
+			    x.innerHTML = "";
+			  } 
+			}
+			function myLeaFunction() {
+			  var x = document.getElementById("myLEA");
+			  var y = document.getElementById("myLEA2");
+			  if (x.innerHTML === "More") {
+			    y.innerHTML = "-  I did commit myself more to the exploration of IoT, in the sense of how I can make use of it as an interaction designer.<br>-  I did get more detailed experience in multi-user design by recognizing that the developed functional prototype did indeed improve the overall experience.";
+			    x.innerHTML = "";
+			  } 
+			}
+		</script>
 	  	
 		<title>Portfolio | Olivier van Duuren</title>
 	</head>
@@ -134,17 +161,17 @@
 				<br>
 				<div style="width: 90%; margin: auto;">
 				<h4>My contribution</h4>
-				<p> I think my very critical attitude throughout the project contributed to a much stronger final concept. With this critical attitude, I started managing the project regarding monitoring development and evaluating the process frequently together with the team <a style="color: #49a571;">[...]</a> <!--I did also actively evaluated all obtained learnings in the studies we performed, even though I did not execute these. I took responsibility for developing the digital interface in the functional prototype. This interface was needed for the field deployments so that we could validate our concept.--></p>
+				<p>I think my very critical attitude throughout the project contributed to a much stronger final concept. With this critical attitude, I started managing the project regarding monitoring development and evaluating the process frequently together with the team. <a id="myCON" style="color: #49a571; text-decoration: underline; cursor: pointer; " onclick="myConFunction()">More</a><p id="myCON2"></p></p>
 				</div>
 				<br><br><br>
 				<div style="width: 90%; margin: auto;">	
 				<h4>Results</h4>				
-				<p>'Q and I' is the new music system for you and your friends, enriching the shared listening experience by providing social information. Each colored row on the tangible interface represents a song in the queue. <a style="color: #49a571;">[...]</a> <!--Every active user in the setting can be assigned to a color, giving them an identity within the system. In this way, while everyone requests their favorite songs via the digital interface, others can become aware when changes are made in the queue via the tangible interface. After validating this concept with field deployments, we truly believe that providing authorship as social information has great potential in improving the shared music listening experience.  --></p>
+				<p>'Q and I' is the new music system for you and your friends, enriching the shared listening experience by providing social information. Each colored row on the tangible interface represents a song in the queue. <a id="RES" style="color: #49a571; text-decoration: underline; cursor: pointer; " onclick="ResFunction()">More</a><p id="RES2"></p> <!--Every active user in the setting can be assigned to a color, giving them an identity within the system. In this way, while everyone requests their favorite songs via the digital interface, others can become aware when changes are made in the queue via the tangible interface. After validating this concept with field deployments, we truly believe that providing authorship as social information has great potential in improving the shared music listening experience.  --></p>
 				</div>
 				<br><br><br>
 				<div style="width: 90%; margin: auto;">	
 				<h4>My learnings</h4>				
-				<p>-	I discovered lots of new ways, with which I can realize more and more prototypes to validate concepts in the future. <a style="color: #49a571;">[...]</a> </p>
+				<p>-	I discovered lots of new ways, with which I can realize more and more prototypes to validate concepts in the future. <a id="myLEA" style="color: #49a571; text-decoration: underline; cursor: pointer; " onclick="myLeaFunction()">More</a><p id="myLEA2"></p></p>
 				<!--<p>-	I did commit myself more to the exploration of IoT, in the sense of how I can make use of it as an interaction designer. </p>
 				<p>-	I did get more detailed experience in multi-user design by recognizing that the developed functional prototype did indeed improve the overall experience.</p>-->
 				</div>

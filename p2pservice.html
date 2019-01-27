@@ -8,7 +8,8 @@
 
 		<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 		<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-		<link rel="stylesheet" href="css/component.css"
+		<link rel="stylesheet" href="css/component.css">
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 		<script src="js/modernizr.js"></script> <!-- Modernizr -->
 
 
@@ -16,6 +17,32 @@
 
 		<script src="http://code.jquery.com/jquery-latest.js"></script>
 
+		<script type="text/javascript">
+			function myConFunction() {
+			  var x = document.getElementById("myCON");
+			  var y = document.getElementById("myCON2");
+			  if (x.innerHTML === "More") {
+			    y.innerHTML = "While constructing this website, it was crucial that I considered patients' motivations and lifestyles. Finally, I partly managed the project and did some small other tasks (e.g., product presentation). ";
+			    x.innerHTML = "";
+			  } 
+			}
+			function ResFunction() {
+			  var x = document.getElementById("RES");
+			  var y = document.getElementById("RES2");
+			  if (x.innerHTML === "More") {
+			    y.innerHTML = "An external device was designed to keep track of the patient’s behavior and inform them about their missteps. It was designed as part of your key chain, although this was never tested thoroughly.";
+			    x.innerHTML = "";
+			  } 
+			}
+			function myLeaFunction() {
+			  var x = document.getElementById("myLEA");
+			  var y = document.getElementById("myLEA2");
+			  if (x.innerHTML === "More") {
+			    y.innerHTML = "-    I improved myself a lot on teamwork and project management.";
+			    x.innerHTML = "";
+			  } 
+			}
+		</script>
 	  	
 		<title>Portfolio | Olivier van Duuren</title>
 	</head>
@@ -129,18 +156,18 @@
 					
 				<div style="width: 90%; margin: auto;">
 				<h4>My contribution</h4>
-				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+				<p>My most important contribution was to prototype the temporarily web-based service. The beta version website was developed front-end primarily since back then I was not able to use back-end languages. <a id="myCON" style="color: #49a571; text-decoration: underline; cursor: pointer; " onclick="myConFunction()">More</a><p id="myCON2"></p></p>
 				</div>
 				<br><br>
 				<div style="width: 90%; margin: auto;">	
 				<h4>Results</h4>				
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. r.</p>
+				<p>Together with my team there was developed a web-based interface called 'Patient 2 Patient service' which allowed patients to share knowledge/experiences and to support other patients to change behavior for better lifestyles. <a id="RES" style="color: #49a571; text-decoration: underline; cursor: pointer; " onclick="ResFunction()">More</a><p id="RES2"></p> </p>
 				</div>
 				
 				<br><br>
 				<div style="width: 90%; margin: auto;">
 				<h4>My learnings</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+				<p>-    How to develop a web service, especially according to striking social media design tools.<a id="myLEA" style="color: #49a571; text-decoration: underline; cursor: pointer; " onclick="myLeaFunction()">More</a><p id="myLEA2"></p> </p>
 				</div>
 
 				</div>	

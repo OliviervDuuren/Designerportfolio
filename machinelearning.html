@@ -8,7 +8,8 @@
 
 		<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 		<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-		<link rel="stylesheet" href="css/component.css"
+		<link rel="stylesheet" href="css/component.css">
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 		<script src="js/modernizr.js"></script> <!-- Modernizr -->
 
 
@@ -16,6 +17,32 @@
 
 		<script src="http://code.jquery.com/jquery-latest.js"></script>
 
+		<script type="text/javascript">
+			function myConFunction() {
+			  var x = document.getElementById("myCON");
+			  var y = document.getElementById("myCON2");
+			  if (x.innerHTML === "More") {
+			    y.innerHTML = "I believe that the used algorithms were strong enough to prove that the concept worked. The prototype was developed with a software sketchbook called ‘Processing’ and thus also written in the corresponding language.  ";
+			    x.innerHTML = "";
+			  } 
+			}
+			function ResFunction() {
+			  var x = document.getElementById("RES");
+			  var y = document.getElementById("RES2");
+			  if (x.innerHTML === "More") {
+			    y.innerHTML = "After some time it can also connect to online shops and recommend to purchase reasonable new clothing items. This concept is not validated. However, the prototype is testing-proof.";
+			    x.innerHTML = "";
+			  } 
+			}
+			function myLeaFunction() {
+			  var x = document.getElementById("myLEA");
+			  var y = document.getElementById("myLEA2");
+			  if (x.innerHTML === "More") {
+			    y.innerHTML = "-	I learned how to design and explore intelligence in a system/product.";
+			    x.innerHTML = "";
+			  } 
+			}
+		</script>
 	  	
 		<title>Portfolio | Olivier van Duuren</title>
 	</head>
@@ -117,7 +144,7 @@
 				
 <!-- 				<h3><a href="growth.html#competencedevelopment" class="cd-btn">Competence development</a><h3> -->
 				<div style="margin: auto; margin-bottom: 50px; font-weight: lighter;">					
-				<p>For young adults, it can be challenging to figure out what to wear each day since they might still be finding out what their clothing style is. Besides, clothing style can also adapt over time, because of trends and individual preferences. That is why there is a need for an intelligent system which can help people explore their clothing styles. </p>
+				<p>For young adults, it can be challenging to figure out what to wear each day since they might still be finding out what their clothing style is. Besides, clothing style can also adapt over time, because of trends and individual preferences. That is why there is a need for an intelligent system which can help people explore their clothing styles.  </p>
 				</div>		
 				
 				<img src="img/clo.jpg" style="max-width: 300px; "/>
@@ -129,18 +156,19 @@
 					
 				<div style="width: 90%; margin: auto;">
 				<h4>My contribution</h4>
-				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+				<p> In this project, I primarily focused on developing the proof of concept, consisting of machine learning algorithms, and alongside also on the concept development. The deliverable of this project was an outfit recommender system. <a id="myCON" style="color: #49a571; text-decoration: underline; cursor: pointer; " onclick="myConFunction()">More</a><p id="myCON2"></p></p>
 				</div>
 				<br><br>
 				<div style="width: 90%; margin: auto;">	
 				<h4>Results</h4>				
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. r.</p>
+				<p>‘Clo’ is an intelligent clothing assistant helping to explore/shape your clothing style. Over time it learns what kind of style you prefer depending on the daily conditions while considering color combinations and other clothing features such as pattern and shape. <a id="RES" style="color: #49a571; text-decoration: underline; cursor: pointer; " onclick="ResFunction()">More</a><p id="RES2"></p> </p>
 				</div>
 				
 				<br><br>
 				<div style="width: 90%; margin: auto;">
 				<h4>My learnings</h4>
-				<p> -	From this project on I realized that machine learning is not as far from my skillset as I expected.</p>
+				<p> -	From this project on I realized that machine learning is not as far from my skillset as I expected. <a id="myLEA" style="color: #49a571; text-decoration: underline; cursor: pointer; " onclick="myLeaFunction()">More</a><p id="myLEA2"></p>
+				</p>
 				</div>
 
 				</div>		
