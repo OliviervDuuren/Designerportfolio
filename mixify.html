@@ -8,7 +8,8 @@
 
 		<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 		<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-		<link rel="stylesheet" href="css/component.css"
+		<link rel="stylesheet" href="css/component.css">
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 		<script src="js/modernizr.js"></script> <!-- Modernizr -->
 
 
@@ -16,6 +17,32 @@
 
 		<script src="http://code.jquery.com/jquery-latest.js"></script>
 
+		<script type="text/javascript">
+			function myConFunction() {
+			  var x = document.getElementById("myCON");
+			  var y = document.getElementById("myCON2");
+			  if (x.innerHTML === "More") {
+			    y.innerHTML = "I believe that the used algorithms were strong enough to prove that the concept worked. The prototype was developed with a software sketchbook called ‘Processing’ and thus also written in the corresponding language.  ";
+			    x.innerHTML = "";
+			  } 
+			}
+			function ResFunction() {
+			  var x = document.getElementById("RES");
+			  var y = document.getElementById("RES2");
+			  if (x.innerHTML === "More") {
+			    y.innerHTML = "Significant effort was put into all several interactions which the product afforded. Plenty of decisions were based upon literature.";
+			    x.innerHTML = "";
+			  } 
+			}
+			function myLeaFunction() {
+			  var x = document.getElementById("myLEA");
+			  var y = document.getElementById("myLEA2");
+			  if (x.innerHTML === "More") {
+			    y.innerHTML = "-	I learned how to design and explore intelligence in a system/product.";
+			    x.innerHTML = "";
+			  } 
+			}
+		</script>
 	  	
 		<title>Portfolio | Olivier van Duuren</title>
 	</head>
@@ -64,6 +91,8 @@
 					
 					
 					<p style="font-size: 14px; letter-spacing: 2px;">Apr 2016 – Jun 2016</p>
+					<div class="tags">Hardware development</div>
+					<div class="tags">Mechanical design</div>
 <!-- 					<p style="font-size: 14px; font-weight: bold; color: #49a571; margin-top: 10px; opacity: 0.5;">popularity statistics will be displayed soon!</p>
  -->
 				</section> <!-- #cd-placeholder-1 -->
@@ -117,7 +146,7 @@
 				
 <!-- 				<h3><a href="growth.html#competencedevelopment" class="cd-btn">Competence development</a><h3> -->
 				<div style="margin: auto; margin-bottom: 50px; font-weight: lighter;">					
-				<p>The aim of this project was to explore product interactions concerning intuitiveness and aesthetics through redesigning a new Spotify player.</p>
+				<p>The aim of this project was to explore product interactions concerning intuitiveness and aesthetics by redesigning a new Spotify player.</p>
 				</div>		
 				
 				<img src="img/mixify.jpg" style="max-width: 300px; "/>
@@ -129,18 +158,20 @@
 					
 				<div style="width: 90%; margin: auto;">
 				<h4>My contribution</h4>
-				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+				<p>I contributed to the development of the mechanics and crafting of this small device. Since every interaction adds to the overall experience of the device, it was essential to work precisely. I was actively revising every single design quality.  </p>
 				</div>
 				<br><br>
 				<div style="width: 90%; margin: auto;">	
 				<h4>Results</h4>				
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. r.</p>
+				<p>The result was focused on creating close relations with people by sharing a physical music mixtape. Through pushing, rotating and other embodied interactions a playlist could be created and uploaded to an inserted physical mixtape which can be played by other devices. <a id="RES" style="color: #49a571; text-decoration: underline; cursor: pointer; " onclick="ResFunction()">More</a><p id="RES2"></p> </p>
 				</div>
 				
 				<br><br>
 				<div style="width: 90%; margin: auto;">
 				<h4>My learnings</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+				<p>-    I learned to assess product interactions on a mechanical level.<br>
+-    I realized how aesthetics could be essential in product interactions.
+</p>
 				</div>
 
 				</div>		

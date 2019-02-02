@@ -8,7 +8,8 @@
 
 		<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 		<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-		<link rel="stylesheet" href="css/component.css"
+		<link rel="stylesheet" href="css/component.css">
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 		<script src="js/modernizr.js"></script> <!-- Modernizr -->
 
 
@@ -16,6 +17,32 @@
 
 		<script src="http://code.jquery.com/jquery-latest.js"></script>
 
+		<script type="text/javascript">
+			function myConFunction() {
+			  var x = document.getElementById("myCON");
+			  var y = document.getElementById("myCON2");
+			  if (x.innerHTML === "More") {
+			    y.innerHTML = "I believe that the used algorithms were strong enough to prove that the concept worked. The prototype was developed with a software sketchbook called ‘Processing’ and thus also written in the corresponding language.  ";
+			    x.innerHTML = "";
+			  } 
+			}
+			function ResFunction() {
+			  var x = document.getElementById("RES");
+			  var y = document.getElementById("RES2");
+			  if (x.innerHTML === "More") {
+			    y.innerHTML = "After some time it can also connect to online shops and recommend to purchase reasonable new clothing items. This concept is not validated. However, the prototype is testing-proof.";
+			    x.innerHTML = "";
+			  } 
+			}
+			function myLeaFunction() {
+			  var x = document.getElementById("myLEA");
+			  var y = document.getElementById("myLEA2");
+			  if (x.innerHTML === "More") {
+			    y.innerHTML = "-	I learned how to design and explore intelligence in a system/product.";
+			    x.innerHTML = "";
+			  } 
+			}
+		</script>
 	  	
 		<title>Portfolio | Olivier van Duuren</title>
 	</head>
@@ -129,18 +156,18 @@
 					
 				<div style="width: 90%; margin: auto;">
 				<h4>My contribution</h4>
-				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a id="myCON" style="color: #49a571; text-decoration: underline; cursor: pointer; " onclick="myConFunction()">More</a><p id="myCON2"></p></p>
 				</div>
 				<br><br>
 				<div style="width: 90%; margin: auto;">	
 				<h4>Results</h4>				
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. r.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a id="RES" style="color: #49a571; text-decoration: underline; cursor: pointer; " onclick="ResFunction()">More</a><p id="RES2"></p> </p>
 				</div>
 				
 				<br><br>
 				<div style="width: 90%; margin: auto;">
 				<h4>My learnings</h4>
-				<p> -	From this project on I realized that machine learning is not as far from my skillset as I expected.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a id="myLEA" style="color: #49a571; text-decoration: underline; cursor: pointer; " onclick="myLeaFunction()">More</a><p id="myLEA2"></p> </p>
 				</div>
 
 				</div>	

@@ -8,7 +8,8 @@
 
 		<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 		<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-		<link rel="stylesheet" href="css/component.css"
+		<link rel="stylesheet" href="css/component.css">
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 		<script src="js/modernizr.js"></script> <!-- Modernizr -->
 
 
@@ -16,6 +17,32 @@
 
 		<script src="http://code.jquery.com/jquery-latest.js"></script>
 
+		<script type="text/javascript">
+			function myConFunction() {
+			  var x = document.getElementById("myCON");
+			  var y = document.getElementById("myCON2");
+			  if (x.innerHTML === "More") {
+			    y.innerHTML = "";
+			    x.innerHTML = "";
+			  } 
+			}
+			function ResFunction() {
+			  var x = document.getElementById("RES");
+			  var y = document.getElementById("RES2");
+			  if (x.innerHTML === "More") {
+			    y.innerHTML = "The user could communicate the perceived quality of sleep through the color of light to his/her partner. A field study was performed with two sets of users for fourteen days, and afterward, we obtained and analyzed the results. The results indicated no positive correlation yet.";
+			    x.innerHTML = "";
+			  } 
+			}
+			function myLeaFunction() {
+			  var x = document.getElementById("myLEA");
+			  var y = document.getElementById("myLEA2");
+			  if (x.innerHTML === "More") {
+			    y.innerHTML = "-	I learned how to design and explore intelligence in a system/product.";
+			    x.innerHTML = "";
+			  } 
+			}
+		</script>
 	  	
 		<title>Portfolio | Olivier van Duuren</title>
 	</head>
@@ -64,6 +91,8 @@
 					
 					
 					<p style="font-size: 14px; letter-spacing: 2px;">Feb 2016 – Jun 2016</p>
+					<div class="tags">Professional attitude</div>
+					<div class="tags">Project management</div>
 <!-- 					<p style="font-size: 14px; font-weight: bold; color: #49a571; margin-top: 10px; opacity: 0.5;">popularity statistics will be displayed soon!</p>
  -->
 				</section> <!-- #cd-placeholder-1 -->
@@ -117,8 +146,12 @@
 				
 <!-- 				<h3><a href="growth.html#competencedevelopment" class="cd-btn">Competence development</a><h3> -->
 				<div style="margin: auto; margin-bottom: 50px; font-weight: lighter;">					
-				<p>In 2016 I did a research project to find out how partners, living apart, affect each other’s quality of sleep through physical communicating.</p>
-				</div>		
+				<p>This research study was performed to increase the perceived quality of sleep. It was researched how partners, living apart, affect each other’s quality of sleep through physical communication.</p>
+				</div>	
+
+				<h3><a href="files/sleeplightfinalpaper.pdf" class="cd-btn pushme hvr-shrink">Design report</a><h3>
+				<br>
+				<br>	
 				
 				<img src="img/sleeplightinteraction2.jpg" style="max-width: 300px; "/>
 				<img src="img/sleeplightinteraction.jpg" style="max-width: 300px; "/>
@@ -129,18 +162,21 @@
 					
 				<div style="width: 90%; margin: auto;">
 				<h4>My contribution</h4>
-				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+				<p> My contribution to the research study was mainly focused on designing, evaluating and developing the prototype. High accuracy in wood crafting and mechanics were required to get significant results. Therefore multiple techniques were applied throughout the construction of the four prototypes.</p>
 				</div>
 				<br><br>
 				<div style="width: 90%; margin: auto;">	
 				<h4>Results</h4>				
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. r.</p>
+				<p>This research discusses a correlation between sharing subjective sleep data among couples, who are living apart, and the perceived quality of sleep of the individual, while acting within the periphery of people’s attention. <a id="RES" style="color: #49a571; text-decoration: underline; cursor: pointer; " onclick="ResFunction()">More</a><p id="RES2"></p> </p>
 				</div>
 				
 				<br><br>
 				<div style="width: 90%; margin: auto;">
 				<h4>My learnings</h4>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>				</div>
+				<p>-	In this project I learned how to conduct research and do field studies<br>
+-	I learned a lot on mechanics in product design.
+</p>
+				</div>
 
 				</div>	
 				<p>Interested or any feedback? Please send me a mail <a href="mailto:oliviervduuren@gmail.com">oliviervduuren@gmail.com</a>!</p>

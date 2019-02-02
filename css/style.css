@@ -119,7 +119,7 @@ Navigation
   width: 100%;
   height: 50px;
   
-  background-color: #25447C;
+  background-color: #3a465d;
   z-index: 5;
 }
 @media only screen and (min-width: 768px) {
@@ -262,17 +262,24 @@ Intro
 
 #cd-intro #cd-intro-tagline {
   width: 90%;
+  height: 550px;
   max-width: 1170px;
   margin: 0 auto;
   text-align: center;
   line-height: 1.6
+
 }
 #cd-intro h1 {
-  font-size: 50px;
-  font-size: 3rem;
+  font-size: 25px;
+  padding-top: 100px;
   font-weight: 100;
-  color: #ffffff;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  color: #49a571;
+
+}
+
+video {
+
+  width: 300px;
 }
 @media only screen and (min-width: 768px) {
   #cd-intro {
@@ -282,8 +289,16 @@ Intro
     padding-top: 100px;
   }
   #cd-intro h1 {
-    font-size: 50px;
-    font-size: 3rem;
+    font-size: 40px;
+  }
+  #introtext {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+  }
+
+  video {
+    width: 905px;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -292,6 +307,9 @@ Intro
   }
   #cd-intro #cd-intro-tagline {
     padding-top: 140px;
+  }
+  #cd-intro h1 {
+    font-size: 40px;
   }
 
 
@@ -619,7 +637,24 @@ Intro
 
 }
 
+.tags {
 
+  display: inline-block;
+  padding: 0.4em 1.5em;
+  background-color: #3a465d;
+  margin-top: 2em;
+  border-radius: 2px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #3a465d;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  font-size:12px;
+
+}
 
 .cd-btn {
   display: inline-block;
@@ -658,7 +693,7 @@ Intro
   border-width: 3px;
   border-style: solid;
   border-color: #49a571;
-  background-color: transparent;
+  background-color: #49a571;
 }
 
 
@@ -1036,7 +1071,6 @@ Placeholder Sections
 }
 .cd-section h2 {
   font-size: 25px;
-  font-size: 2.75rem;
   margin-bottom: .6em;
   font-weight: 500;
 }
@@ -1053,7 +1087,7 @@ Placeholder Sections
   }
 
   .cd-section h2 {
-    font-size: 25px;
+    font-size: 20px;
     font-size: 2.75rem;
   }
   .cd-section p {
@@ -1794,6 +1828,25 @@ color: #fff;}
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
 }
+
+#typingtext {
+  font-size: 40px;font-weight: 300;
+}
+
+#introtext {  font-weight: lighter; font-size: 24px; width: 60%; margin: auto; color: white;  }
+
+@media only screen and (min-width: 700px) {
+#typingtext {
+  font-size: 40px;font-weight: 300;
+  
+}
+
+#introtext {
+   font-weight: lighter; font-size: 18px; width: 60%; margin: auto; color: white; 
+}
+
+  }
+
 
 /* The typing effect */
 @keyframes typing {

@@ -8,7 +8,8 @@
 
 		<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 		<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-		<link rel="stylesheet" href="css/component.css"
+		<link rel="stylesheet" href="css/component.css">
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
 		<script src="js/modernizr.js"></script> <!-- Modernizr -->
 
 
@@ -16,7 +17,33 @@
 
 		<script src="http://code.jquery.com/jquery-latest.js"></script>
 
-	  	
+	  	<script type="text/javascript">
+			function myConFunction() {
+			  var x = document.getElementById("myCON");
+			  var y = document.getElementById("myCON2");
+			  if (x.innerHTML === "More") {
+			    y.innerHTML = "Secondly, I developed communication(voice and gesture recognition) software to afford proper interaction functionalities.";
+			    x.innerHTML = "";
+			  } 
+			}
+			function ResFunction() {
+			  var x = document.getElementById("RES");
+			  var y = document.getElementById("RES2");
+			  if (x.innerHTML === "More") {
+			    y.innerHTML = "The whole multi-disciplinary team usually worked together to improve the technology and show the world the possibilities and applications of indoor drones.";
+			    x.innerHTML = "";
+			  } 
+			}
+			function myLeaFunction() {
+			  var x = document.getElementById("myLEA");
+			  var y = document.getElementById("myLEA2");
+			  if (x.innerHTML === "More") {
+			    y.innerHTML = "-	I learned how to design and explore intelligence in a system/product.";
+			    x.innerHTML = "";
+			  } 
+			}
+		</script>
+
 		<title>Portfolio | Olivier van Duuren</title>
 	</head>
 
@@ -64,6 +91,9 @@
 					
 					
 					<p style="font-size: 14px; letter-spacing: 2px;">Jan 2017 – Jun 2017</p>
+					<div class="tags">Software development</div>
+					<div class="tags">Hardware development</div>
+					<div class="tags">Research</div>
 					<!-- <p style="font-size: 14px; font-weight: bold; color: #49a571; margin-top: 10px; opacity: 0.5;">popularity statistics will be displayed soon!</p> -->
 
 				</section> <!-- #cd-placeholder-1 -->
@@ -117,9 +147,13 @@
 				
 <!-- 				<h3><a href="growth.html#competencedevelopment" class="cd-btn">Competence development</a><h3> -->
 				<div style="margin: auto; margin-bottom: 50px; font-weight: lighter;">					
-				<p>As final bachelor project I joined the interaction team of a student team called 'Blue Jay Eindhoven', which develops ground-breaking indoor drone technology. 
+				<p>Blue Jay Eindhoven develops domestic drones aiming to be social, helpful, safe and autonomous. Domestic drones are almost unexplored, and therefore this team is facing a lot of various challenges. 
 				</p>
-				</div>		
+				</div>
+
+				<h3><a href="files/FinalBachelorProject_report.pdf" class="cd-btn pushme hvr-shrink">Design report</a><h3>
+				<br>
+				<br>		
 
 				<img src="img/bluejayteam.jpg" style="max-width: 300px; "/>				
 				<img src="img/BlueJayDrone.jpg" style="max-width: 300px; "/>
@@ -130,18 +164,20 @@
 					
 				<div style="width: 90%; margin: auto;">
 				<h4>My contribution</h4>
-				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+				<p>As a contribution to this multi-disciplinary team extensive user research was performed focusing on the importance of human to drone interaction. I conducted relevant research covering the multiple different user needs of the drone in various applications. <a id="myCON" style="color: #49a571; text-decoration: underline; cursor: pointer; " onclick="myConFunction()">More</a><p id="myCON2"></p></p>
 				</div>
 				<br><br>
 				<div style="width: 90%; margin: auto;">	
 				<h4>Results</h4>				
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. r.</p>
+				<p>We presented an interactive game with children in the Maxima Medisch Centrum hospital in Eindhoven in which all different qualities (social, safe and autonomous) were demonstrated. <a id="RES" style="color: #49a571; text-decoration: underline; cursor: pointer; " onclick="ResFunction()">More</a><p id="RES2"></p> </p>
 				</div>
 				
 				<br><br>
 				<div style="width: 90%; margin: auto;">
 				<h4>My learnings</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+				<p>-    This project was my first experience in a large multi-disciplinary team<br>
+-    I extensively explored potential target groups and thoroughly reflected this to interaction design.
+ </p>
 				</div>
 
 				</div>		
